@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA0BD222008BE270054761E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0BD212008BE270054761E /* AppDelegate.m */; };
+		1FA0BD252008BE280054761E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0BD242008BE280054761E /* ViewController.m */; };
+		1FA0BD282008BE280054761E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0BD262008BE280054761E /* Main.storyboard */; };
+		1FA0BD2A2008BE280054761E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0BD292008BE280054761E /* Assets.xcassets */; };
+		1FA0BD2D2008BE280054761E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA0BD2B2008BE280054761E /* LaunchScreen.storyboard */; };
+		1FA0BD302008BE280054761E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0BD2F2008BE280054761E /* main.m */; };
+		1FA0BD3A2008BE280054761E /* CRProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0BD392008BE280054761E /* CRProtocolManagerTests.m */; };
+		1FA0BD452008BE280054761E /* CRProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0BD442008BE280054761E /* CRProtocolManagerUITests.m */; };
+		1FA0BD552008BEB20054761E /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0BD542008BEB20054761E /* CRProtocolManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA0BD362008BE280054761E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA0BD152008BE270054761E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA0BD1C2008BE270054761E;
+			remoteInfo = CRProtocolManager;
+		};
+		1FA0BD412008BE280054761E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA0BD152008BE270054761E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA0BD1C2008BE270054761E;
+			remoteInfo = CRProtocolManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA0BD1D2008BE270054761E /* CRProtocolManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRProtocolManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA0BD202008BE270054761E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FA0BD212008BE270054761E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FA0BD232008BE270054761E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FA0BD242008BE280054761E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FA0BD272008BE280054761E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FA0BD292008BE280054761E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FA0BD2C2008BE280054761E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FA0BD2E2008BE280054761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA0BD2F2008BE280054761E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FA0BD352008BE280054761E /* CRProtocolManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA0BD392008BE280054761E /* CRProtocolManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerTests.m; sourceTree = "<group>"; };
+		1FA0BD3B2008BE280054761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA0BD402008BE280054761E /* CRProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA0BD442008BE280054761E /* CRProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerUITests.m; sourceTree = "<group>"; };
+		1FA0BD462008BE280054761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA0BD532008BEB20054761E /* CRProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		1FA0BD542008BEB20054761E /* CRProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA0BD1A2008BE270054761E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA0BD322008BE280054761E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA0BD3D2008BE280054761E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA0BD142008BE270054761E = {
+			isa = PBXGroup;
+			children = (
+				1FA0BD1F2008BE270054761E /* CRProtocolManager */,
+				1FA0BD382008BE280054761E /* CRProtocolManagerTests */,
+				1FA0BD432008BE280054761E /* CRProtocolManagerUITests */,
+				1FA0BD1E2008BE270054761E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA0BD1E2008BE270054761E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0BD1D2008BE270054761E /* CRProtocolManager.app */,
+				1FA0BD352008BE280054761E /* CRProtocolManagerTests.xctest */,
+				1FA0BD402008BE280054761E /* CRProtocolManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA0BD1F2008BE270054761E /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0BD522008BE950054761E /* ProtocolManager */,
+				1FA0BD202008BE270054761E /* AppDelegate.h */,
+				1FA0BD212008BE270054761E /* AppDelegate.m */,
+				1FA0BD232008BE270054761E /* ViewController.h */,
+				1FA0BD242008BE280054761E /* ViewController.m */,
+				1FA0BD262008BE280054761E /* Main.storyboard */,
+				1FA0BD292008BE280054761E /* Assets.xcassets */,
+				1FA0BD2B2008BE280054761E /* LaunchScreen.storyboard */,
+				1FA0BD2E2008BE280054761E /* Info.plist */,
+				1FA0BD2F2008BE280054761E /* main.m */,
+			);
+			path = CRProtocolManager;
+			sourceTree = "<group>";
+		};
+		1FA0BD382008BE280054761E /* CRProtocolManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0BD392008BE280054761E /* CRProtocolManagerTests.m */,
+				1FA0BD3B2008BE280054761E /* Info.plist */,
+			);
+			path = CRProtocolManagerTests;
+			sourceTree = "<group>";
+		};
+		1FA0BD432008BE280054761E /* CRProtocolManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0BD442008BE280054761E /* CRProtocolManagerUITests.m */,
+				1FA0BD462008BE280054761E /* Info.plist */,
+			);
+			path = CRProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		1FA0BD522008BE950054761E /* ProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0BD532008BEB20054761E /* CRProtocolManager.h */,
+				1FA0BD542008BEB20054761E /* CRProtocolManager.m */,
+			);
+			path = ProtocolManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA0BD1C2008BE270054761E /* CRProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA0BD492008BE280054761E /* Build configuration list for PBXNativeTarget "CRProtocolManager" */;
+			buildPhases = (
+				1FA0BD192008BE270054761E /* Sources */,
+				1FA0BD1A2008BE270054761E /* Frameworks */,
+				1FA0BD1B2008BE270054761E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRProtocolManager;
+			productName = CRProtocolManager;
+			productReference = 1FA0BD1D2008BE270054761E /* CRProtocolManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FA0BD342008BE280054761E /* CRProtocolManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA0BD4C2008BE280054761E /* Build configuration list for PBXNativeTarget "CRProtocolManagerTests" */;
+			buildPhases = (
+				1FA0BD312008BE280054761E /* Sources */,
+				1FA0BD322008BE280054761E /* Frameworks */,
+				1FA0BD332008BE280054761E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA0BD372008BE280054761E /* PBXTargetDependency */,
+			);
+			name = CRProtocolManagerTests;
+			productName = CRProtocolManagerTests;
+			productReference = 1FA0BD352008BE280054761E /* CRProtocolManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FA0BD3F2008BE280054761E /* CRProtocolManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA0BD4F2008BE280054761E /* Build configuration list for PBXNativeTarget "CRProtocolManagerUITests" */;
+			buildPhases = (
+				1FA0BD3C2008BE280054761E /* Sources */,
+				1FA0BD3D2008BE280054761E /* Frameworks */,
+				1FA0BD3E2008BE280054761E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA0BD422008BE280054761E /* PBXTargetDependency */,
+			);
+			name = CRProtocolManagerUITests;
+			productName = CRProtocolManagerUITests;
+			productReference = 1FA0BD402008BE280054761E /* CRProtocolManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA0BD152008BE270054761E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mye;
+				TargetAttributes = {
+					1FA0BD1C2008BE270054761E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1FA0BD342008BE280054761E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FA0BD1C2008BE270054761E;
+					};
+					1FA0BD3F2008BE280054761E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FA0BD1C2008BE270054761E;
+					};
+				};
+			};
+			buildConfigurationList = 1FA0BD182008BE270054761E /* Build configuration list for PBXProject "CRProtocolManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FA0BD142008BE270054761E;
+			productRefGroup = 1FA0BD1E2008BE270054761E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA0BD1C2008BE270054761E /* CRProtocolManager */,
+				1FA0BD342008BE280054761E /* CRProtocolManagerTests */,
+				1FA0BD3F2008BE280054761E /* CRProtocolManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA0BD1B2008BE270054761E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA0BD2D2008BE280054761E /* LaunchScreen.storyboard in Resources */,
+				1FA0BD2A2008BE280054761E /* Assets.xcassets in Resources */,
+				1FA0BD282008BE280054761E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA0BD332008BE280054761E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA0BD3E2008BE280054761E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA0BD192008BE270054761E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA0BD552008BEB20054761E /* CRProtocolManager.m in Sources */,
+				1FA0BD252008BE280054761E /* ViewController.m in Sources */,
+				1FA0BD302008BE280054761E /* main.m in Sources */,
+				1FA0BD222008BE270054761E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA0BD312008BE280054761E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA0BD3A2008BE280054761E /* CRProtocolManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA0BD3C2008BE280054761E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA0BD452008BE280054761E /* CRProtocolManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA0BD372008BE280054761E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA0BD1C2008BE270054761E /* CRProtocolManager */;
+			targetProxy = 1FA0BD362008BE280054761E /* PBXContainerItemProxy */;
+		};
+		1FA0BD422008BE280054761E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA0BD1C2008BE270054761E /* CRProtocolManager */;
+			targetProxy = 1FA0BD412008BE280054761E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FA0BD262008BE280054761E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA0BD272008BE280054761E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FA0BD2B2008BE280054761E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA0BD2C2008BE280054761E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA0BD472008BE280054761E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FA0BD482008BE280054761E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FA0BD4A2008BE280054761E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mye.CRProtocolManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FA0BD4B2008BE280054761E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mye.CRProtocolManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FA0BD4D2008BE280054761E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mye.CRProtocolManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRProtocolManager.app/CRProtocolManager";
+			};
+			name = Debug;
+		};
+		1FA0BD4E2008BE280054761E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mye.CRProtocolManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRProtocolManager.app/CRProtocolManager";
+			};
+			name = Release;
+		};
+		1FA0BD502008BE280054761E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mye.CRProtocolManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRProtocolManager;
+			};
+			name = Debug;
+		};
+		1FA0BD512008BE280054761E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mye.CRProtocolManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRProtocolManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA0BD182008BE270054761E /* Build configuration list for PBXProject "CRProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA0BD472008BE280054761E /* Debug */,
+				1FA0BD482008BE280054761E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA0BD492008BE280054761E /* Build configuration list for PBXNativeTarget "CRProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA0BD4A2008BE280054761E /* Debug */,
+				1FA0BD4B2008BE280054761E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA0BD4C2008BE280054761E /* Build configuration list for PBXNativeTarget "CRProtocolManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA0BD4D2008BE280054761E /* Debug */,
+				1FA0BD4E2008BE280054761E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA0BD4F2008BE280054761E /* Build configuration list for PBXNativeTarget "CRProtocolManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA0BD502008BE280054761E /* Debug */,
+				1FA0BD512008BE280054761E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA0BD152008BE270054761E /* Project object */;
+}
